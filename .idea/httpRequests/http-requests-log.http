@@ -1,0 +1,156 @@
+POST http://localhost:8084/user/insert.do
+Content-Type: application/json
+
+{
+  "username":"张三",
+  "password":"123456",
+  "name":"王五",
+  "sex":"男",
+  "email":"834187150@qq.com",
+  "phone":"17782953628",
+  "qq":"834187150"
+}
+
+<> 2021-05-03T115625.200.json
+
+###
+
+POST http://localhost:8084/user/insert.do
+Content-Type: application/json
+
+{
+  "username":"张三",
+  "password":"123456",
+  "name":"王五",
+  "birthday":"2020/10/5",
+  "sex":"男",
+  "email":"834187150@qq.com",
+  "phone":"17782953628",
+  "qq":"834187150"
+}
+
+<> 2021-05-03T115345.400.html
+
+###
+
+POST http://localhost:8084/user/insert.do
+Content-Type: application/json
+
+{
+  "username":"张三",
+  "password":"123456",
+  "name":"王五",
+  "birthday":"2020/10/5",
+  "sex":"男",
+  "email":"834187150@qq.com",
+  "phone":"17782953628",
+  "qq":"834187150"
+}
+
+<> 2021-05-03T115317.400.html
+
+###
+
+POST http://localhost:8084/brand/insert.do
+Content-Type: application/json
+
+{
+  "name" : "阿里巴巴",
+  "firstChar" : "A"
+}
+
+<> 2021-05-03T114813.200.json
+
+###
+
+POST http://localhost:8084/brand/insert.do?name=华为&firstChar=H
+Accept: application/json
+
+<> 2021-05-03T114051.400.html
+
+###
+
+POST http://localhost:8084/brand/insert.do?name=华为&firstChar=H
+Accept: application/json
+
+<> 2021-05-03T114049.400.html
+
+###
+
+GET http://localhost:8084/brand/insert.do?name=华为&firstChar=H
+Accept: application/json
+
+<> 2021-05-03T113817.400.html
+
+###
+
+GET http://localhost:8084/brand/insert.do?name=华为&firstChar=H
+Accept: application/json
+
+<> 2021-05-03T113635.400.html
+
+###
+
+GET http://localhost:8084/brand/insert.do?name=华为&firstChar=H
+Accept: application/json
+
+<> 2021-05-03T111655.400.html
+
+###
+
+GET http://localhost:8084/brand/insert.do?name=华为&firstChar=H
+Accept: application/json
+
+<> 2021-05-03T111416.400.html
+
+###
+
+GET http://localhost:8084?name=华为&firstChar=H
+Accept: application/json
+
+<> 2021-05-03T111410.200.html
+
+###
+
+GET http://localhost:8084/brand/insert.do?name=华为&firstChar=H
+Accept: application/json
+
+<> 2021-05-03T111305.400.html
+
+###
+
+GET http://localhost:8084/brand/insert.do?name=华为&firstChar=H
+Accept: application/json
+
+<> 2021-05-03T111143.400.html
+
+###
+
+GET http://localhost:8084/brand/insert?name=华为&firstChar=H
+Accept: application/json
+
+<> 2021-05-03T111055.404.html
+
+###
+
+GET http://localhost:8084/brand/insert?name=华为&firstChar=H
+Accept: application/json
+
+<> 2021-05-03T111052.404.html
+
+###
+
+GET http://localhost:8084/brand/insert?name=华为&firstChar=H
+Accept: */*
+
+<> 2021-05-03T110937.404.html
+
+###
+
+GET http://localhost:8084/brand/insert?name=华为&firstChar=H
+Accept: */*
+
+<> 2021-05-03T110842.404.html
+
+###
+
